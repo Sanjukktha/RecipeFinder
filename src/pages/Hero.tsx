@@ -36,7 +36,7 @@ export default function Hero() {
                     <Features resetPage={() => setSelectedPage(null)} />
                 );
             case 'about':
-                window.open('https://github.com/Sanjukktha', '_blank');
+                window.open('https://github.com/Sanjukktha/RecipeFinder', '_blank');
                 setSelectedPage(null);
                 return (
                     <Landing />
@@ -156,7 +156,7 @@ export default function Hero() {
                     <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                         <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                             Discover our new AI-powered recipe generator.{' '}
-                            <a href="https://github.com/Sanjukktha" className="font-semibold text-brand-600">
+                            <a href="https://github.com/Sanjukktha/RecipeFinder" className="font-semibold text-brand-600">
                                 <span className="absolute inset-0" aria-hidden="true" />
                                 Learn more <span aria-hidden="true">&rarr;</span>
                             </a>
